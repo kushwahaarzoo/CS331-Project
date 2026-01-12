@@ -55,3 +55,60 @@ The system shall implement role-based access control.
 
 The system shall log all user activities for auditing.
 
+Non-Functional Requirements --Abhijit
+4.1 Performance
+
+The system shall process alerts with minimal latency.
+
+The system shall support concurrent users without degradation.
+
+4.2 Security
+
+The system shall encrypt sensitive data at rest and in transit.
+
+The system shall log all security-related actions.
+
+The system shall prevent unauthorized access.
+
+4.3 Reliability
+
+The system shall be available 24/7.
+
+The system shall recover gracefully from failures.
+
+4.4 Scalability
+
+The system shall scale horizontally to handle increased alert volume.
+
+The system shall support integration with new security tools.
+
+4.5 Usability
+
+The system shall provide an intuitive user interface.
+
+The system shall minimize manual intervention during incidents.
+
+5. Assumptions and Dependencies
+5.1 Assumptions
+
+Integrated security tools expose APIs or logs.
+
+Users have basic knowledge of cybersecurity concepts.
+
+5.2 Dependencies
+
+Availability of third-party security tools
+
+Network connectivity for integrations
+
+6. Future Enhancements
+
+AI-based incident prioritization
+
+Machine learning–driven anomaly detection
+
+Automated threat intelligence enrichment
+
+7. Conclusion
+The SOAR platform aims to improve security operations efficiency by automating repetitive tasks, reducing response time, and enhancing visibility into security incidents.
+
